@@ -34,4 +34,15 @@ public class Page {
     public int getPageNumber() {
         return pageNumber;
     }
+
+    @Override
+    public String toString(){
+        return "Page{" +
+                "storyName='" + storyName + '\'' +
+                ", storyAuthor='" + storyAuthor + '\'' +
+                ", chapterName='" +chapterName + '\'' +
+                ", pageContent='" + pageContent + '\'' +
+                ", pageNumber='" + pageNumber + '\'' +
+                '}';
+    }
 }
