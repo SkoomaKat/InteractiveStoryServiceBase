@@ -7,7 +7,6 @@ public class Page {
     private String pageContent;
     private int pageNumber;
 
-
     public Page(String storyName, String storyAuthor, String chapterName, String pageContent, int pageNumber) {
         this.storyName = storyName;
         this.storyAuthor = storyAuthor;
